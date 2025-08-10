@@ -1,7 +1,7 @@
 """Benchmark tests for other_indicators (single and bulk, all dataset sizes and variations)"""
 import pytest
 from pytechnicalindicators import other_indicators
-from .data_constants import get_test_data
+from data_constants import get_test_data
 
 ma_types = ["simple", "smoothed", "exponential", "median", "mode"]
 data_sizes = ["small", "medium", "large"]

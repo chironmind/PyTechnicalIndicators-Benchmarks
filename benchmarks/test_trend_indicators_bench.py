@@ -149,7 +149,7 @@ class TestVolumePriceTrend:
         previous_vpt = 0.0
         result = benchmark(
             trend_indicators.bulk.volume_price_trend,
-            data['close'], data['volume'], previous_vpt
+            data['close'], data['volume'][:-1], previous_vpt
         )
         assert isinstance(result, list)
 

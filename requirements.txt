@@ -3,6 +3,6 @@ packaging==25.0
 pluggy==1.6.0
 py-cpuinfo==9.0.0
 Pygments==2.19.2
-pytechnicalindicators==3.0.1
+pytechnicalindicators==3.0.2
 pytest==8.4.1
 pytest-benchmark==5.1.0

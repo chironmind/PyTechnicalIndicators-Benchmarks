@@ -75,7 +75,7 @@ class TestBollingerBands:
         data = get_test_data(data_size)
         result = benchmark(
             standard_indicators.single.bollinger_bands,
-            data['close']
+            data['close'][:20]
         )
         assert isinstance(result, tuple) and len(result) == 3
 
@@ -95,7 +95,7 @@ class TestMACD:
         data = get_test_data(data_size)
         result = benchmark(
             standard_indicators.single.macd,
-            data['close']
+            data['close'][:34]
         )
         assert isinstance(result, tuple) and len(result) == 3
 
@@ -115,7 +115,7 @@ class TestRSI:
         data = get_test_data(data_size)
         result = benchmark(
             standard_indicators.single.rsi,
-            data['close']
+            data['close'][:14]
         )
         assert isinstance(result, float)
 
