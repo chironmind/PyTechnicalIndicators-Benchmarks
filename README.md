@@ -100,6 +100,29 @@ a complete picutre of what to expect.
 
 ### Results
 
+These result will summarize the results from the benches on a RPI5, a full human friendly run can be found [here](https://github.com/ChironMind/PyTechnicalIndicators_Benchmarks/results/markdown).
+
+The results are split by indicator category, then data size. For indicators that have multiple possible combinations (constant model
+type, deviation model...) only the fastest and the slowest combination will be provided here. More details can
+be found in the `results/markdown` directory.
+
+#### Candle Indicators
+
+##### Small
+
+TBD
+
+##### Medium
+
+| Run Name | Rounds | Min (µs) | Max (µs) | Mean (µs) | Median (µs) | Stddev (µs) | Ops/sec |
+|----|----|----|----|----|----|----|----|
+| Single Moving Constant Env [simple ma] | 30287 | 17.94 | 36.87 | 18.17 | 18.13 | 0.26 | 5.50e+04 |
+| Single Moving Constant Env [mode] | 11699 | 70.56 | 981.17 | 75.59 | 74.89 | 10.18 | 1.32e+04 |
+| Bulk Moving Constant Env [simple ma] | 1225 | 139.13 | 565.80 | 142.80 | 140.09 | 15.91 | 7.00e+03 |
+| Bulk Moving Constant Env [mode] | 561 | 1740.75 | 2524.77 | 1779.91 | 1763.66 | 49.48 | 5.62e+02 |
+
+
+
 ---
 
 ## 📚 About This Repo
