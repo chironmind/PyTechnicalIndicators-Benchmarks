@@ -112,7 +112,34 @@ Due to the size of the files produced Candles [small] and all momentum indicator
 
 ##### Small
 
-TBD
+| Run Name | Rounds | Min (µs) | Max (µs) | Mean (µs) | Median (µs) | Stddev (µs) | Ops/sec |
+|----|----|----|----|----|----|----|----|
+| `test_single_mce[small-simple]` | 14015 | 3.94 | 45.57 | 4.09 | 4.06 | 0.79 | 2.44e+05 |
+| `test_single_mce[small-mode]` | 34351 | 15.11 | 248.30 | 16.33 | 16.24 | 2.11 | 6.12e+04 |
+| `test_bulk_mce[small-simple]` | 262 | 26.43 | 137.02 | 27.30 | 26.70 | 6.93 | 3.66e+04 |
+| `test_bulk_mce[small-mode]` | 2693 | 330.95 | 611.97 | 343.54 | 336.84 | 21.40 | 2.91e+03 |
+| `test_single_mcginley_env[small]` | 121625 | 3.76 | 253.35 | 3.91 | 3.87 | 1.37 | 2.56e+05 |
+| `test_bulk_mcginley_env[small]` | 23643 | 25.13 | 3349.75 | 28.53 | 26.17 | 23.38 | 3.51e+04 |
+| `test_single_bands[small-standard-simple]` | 33519 | 4.41 | 1391.07 | 5.22 | 4.78 | 9.53 | 1.91e+05 |
+| `test_single_bands[small-mode-mode]` | 26176 | 26.63 | 403.84 | 29.39 | 28.76 | 8.51 | 3.40e+04 |
+| `test_bulk_bands[small-standard-simple]` | 10822 | 40.15 | 445.73 | 42.85 | 41.07 | 12.14 | 2.33e+04 |
+| `test_bulk_bands[small-ulcer-mode]` | 1602 | 430.80 | 3330.51 | 501.20 | 489.79 | 122.87 | 2.00e+03 |
+| `test_single_mcginley_bands[small-standard]` | 41926 | 4.48 | 60.56 | 4.74 | 4.61 | 1.00 | 2.11e+05 |
+| `test_single_mcginley_bands[small-mode]` | 33541 | 15.24 | 63.32 | 16.58 | 16.50 | 1.00 | 6.03e+04 |
+| `test_bulk_mcginley_bands[small-mean]` | 13149 | 33.63 | 86.76 | 35.30 | 34.69 | 2.61 | 2.83e+04 |
+| `test_bulk_mcginley_bands[small-mode]` | 2192 | 344.84 | 827.49 | 367.55 | 359.25 | 27.19 | 2.72e+03 |
+| `test_single_ichimoku[small]` | 47660 | 11.00 | 113.87 | 11.56 | 11.44 | 0.97 | 8.65e+04 |
+| `test_bulk_ichimoku[small]` | 7484 | 90.72 | 155.56 | 92.78 | 91.56 | 3.71 | 1.08e+04 |
+| `test_single_donchian[small]` | 65536 | 8.35 | 60.02 | 8.58 | 8.52 | 0.67 | 1.17e+05 |
+| `test_bulk_donchian[small]` | 14647 | 38.13 | 107.59 | 39.72 | 39.24 | 2.14 | 2.52e+04 |
+| `test_single_keltner[small-simple-simple]` | 45532 | 12.06 | 69.74 | 12.69 | 12.57 | 1.04 | 7.88e+04 |
+| `test_single_keltner[small-mode-mode]` | 21506 | 30.46 | 104.15 | 32.82 | 32.65 | 1.90 | 3.05e+04 |
+| `test_bulk_keltner[small-simple-simple]` | 9755 | 68.91 | 140.58 | 70.90 | 69.85 | 3.65 | 1.41e+04 |
+| `test_bulk_keltner[small-mode-mode]` | 1350 | 651.21 | 866.34 | 677.04 | 670.89 | 25.20 | 1.48e+03 |
+| `test_single_supertrend[small-simple]` | 51624 | 12.67 | 56.72 | 12.94 | 12.83 | 0.92 | 7.73e+04 |
+| `test_single_supertrend[small-mode]` | 33730 | 19.11 | 115.43 | 20.42 | 20.31 | 1.40 | 4.90e+04 |
+| `test_bulk_supertrend[small-simple]` | 13716 | 45.24 | 123.82 | 46.27 | 45.82 | 2.44 | 2.16e+04 |
+| `test_bulk_supertrend[small-mode]` | 2700 | 314.34 | 385.78 | 322.69 | 320.58 | 6.51 | 3.10e+03 |
 
 ##### Medium
 
@@ -273,66 +300,120 @@ TBD
 
 ##### Small
 
-TBD
+| Run Name | Rounds | Min (µs) | Max (µs) | Mean (µs) | Median (µs) | Stddev (µs) | Ops/sec |
+|----|----|----|----|----|----|----|----|
+| `test_single_mce[small-simple]` | 14015 | 3.94 | 45.57 | 4.09 | 4.06 | 0.79 | 2.44e+05 |
+| `test_single_mce[small-mode]` | 34351 | 15.11 | 248.30 | 16.33 | 16.24 | 2.11 | 6.12e+04 |
+| `test_bulk_mce[small-simple]` | 262 | 26.43 | 137.02 | 27.30 | 26.70 | 6.93 | 3.66e+04 |
+| `test_bulk_mce[small-mode]` | 2693 | 330.95 | 611.97 | 343.54 | 336.84 | 21.40 | 2.91e+03 |
+| `test_single_mcginley_env[small]` | 121625 | 3.76 | 253.35 | 3.91 | 3.87 | 1.37 | 2.56e+05 |
+| `test_bulk_mcginley_env[small]` | 23643 | 25.13 | 3349.75 | 28.53 | 26.17 | 23.38 | 3.51e+04 |
+| `test_single_bands[small-standard-simple]` | 33519 | 4.41 | 1391.07 | 5.22 | 4.78 | 9.53 | 1.91e+05 |
+| `test_single_bands[small-mode-mode]` | 26176 | 26.63 | 403.84 | 29.39 | 28.76 | 8.51 | 3.40e+04 |
+| `test_bulk_bands[small-standard-simple]` | 10822 | 40.15 | 445.73 | 42.85 | 41.07 | 12.14 | 2.33e+04 |
+| `test_bulk_bands[small-ulcer-mode]` | 1602 | 430.80 | 3330.51 | 501.20 | 489.79 | 122.87 | 2.00e+03 |
+| `test_single_mcginley_bands[small-standard]` | 41926 | 4.48 | 60.56 | 4.74 | 4.61 | 1.00 | 2.11e+05 |
+| `test_single_mcginley_bands[small-mode]` | 33541 | 15.24 | 63.32 | 16.58 | 16.50 | 1.00 | 6.03e+04 |
+| `test_bulk_mcginley_bands[small-mean]` | 13149 | 33.63 | 86.76 | 35.30 | 34.69 | 2.61 | 2.83e+04 |
+| `test_bulk_mcginley_bands[small-mode]` | 2192 | 344.84 | 827.49 | 367.55 | 359.25 | 27.19 | 2.72e+03 |
+| `test_single_ichimoku[small]` | 47660 | 11.00 | 113.87 | 11.56 | 11.44 | 0.97 | 8.65e+04 |
+| `test_bulk_ichimoku[small]` | 7484 | 90.72 | 155.56 | 92.78 | 91.56 | 3.71 | 1.08e+04 |
+| `test_single_donchian[small]` | 65536 | 8.35 | 60.02 | 8.58 | 8.52 | 0.67 | 1.17e+05 |
+| `test_bulk_donchian[small]` | 14647 | 38.13 | 107.59 | 39.72 | 39.24 | 2.14 | 2.52e+04 |
+| `test_single_keltner[small-simple-simple]` | 45532 | 12.06 | 69.74 | 12.69 | 12.57 | 1.04 | 7.88e+04 |
+| `test_single_keltner[small-mode-mode]` | 21506 | 30.46 | 104.15 | 32.82 | 32.65 | 1.90 | 3.05e+04 |
+| `test_bulk_keltner[small-simple-simple]` | 9755 | 68.91 | 140.58 | 70.90 | 69.85 | 3.65 | 1.41e+04 |
+| `test_bulk_keltner[small-mode-mode]` | 1350 | 651.21 | 866.34 | 677.04 | 670.89 | 25.20 | 1.48e+03 |
+| `test_single_supertrend[small-simple]` | 51624 | 12.67 | 56.72 | 12.94 | 12.83 | 0.92 | 7.73e+04 |
+| `test_single_supertrend[small-mode]` | 33730 | 19.11 | 115.43 | 20.42 | 20.31 | 1.40 | 4.90e+04 |
+| `test_bulk_supertrend[small-simple]` | 13716 | 45.24 | 123.82 | 46.27 | 45.82 | 2.44 | 2.16e+04 |
+| `test_bulk_supertrend[small-mode]` | 2700 | 314.34 | 385.78 | 322.69 | 320.58 | 6.51 | 3.10e+03 |
 
 ##### Medium
 
-TBD
+| Run Name | Rounds | Min (µs) | Max (µs) | Mean (µs) | Median (µs) | Stddev (µs) | Ops/sec |
+|----|----|----|----|----|----|----|----|
+| `test_single_mce[small-simple]` | 14015 | 3.94 | 45.57 | 4.09 | 4.06 | 0.79 | 2.44e+05 |
+| `test_single_mce[small-mode]` | 34351 | 15.11 | 248.30 | 16.33 | 16.24 | 2.11 | 6.12e+04 |
+| `test_bulk_mce[small-simple]` | 262 | 26.43 | 137.02 | 27.30 | 26.70 | 6.93 | 3.66e+04 |
+| `test_bulk_mce[small-mode]` | 2693 | 330.95 | 611.97 | 343.54 | 336.84 | 21.40 | 2.91e+03 |
+| `test_single_mcginley_env[small]` | 121625 | 3.76 | 253.35 | 3.91 | 3.87 | 1.37 | 2.56e+05 |
+| `test_bulk_mcginley_env[small]` | 23643 | 25.13 | 3349.75 | 28.53 | 26.17 | 23.38 | 3.51e+04 |
+| `test_single_bands[small-standard-simple]` | 33519 | 4.41 | 1391.07 | 5.22 | 4.78 | 9.53 | 1.91e+05 |
+| `test_single_bands[small-mode-mode]` | 26176 | 26.63 | 403.84 | 29.39 | 28.76 | 8.51 | 3.40e+04 |
+| `test_bulk_bands[small-standard-simple]` | 10822 | 40.15 | 445.73 | 42.85 | 41.07 | 12.14 | 2.33e+04 |
+| `test_bulk_bands[small-ulcer-mode]` | 1602 | 430.80 | 3330.51 | 501.20 | 489.79 | 122.87 | 2.00e+03 |
+| `test_single_mcginley_bands[small-standard]` | 41926 | 4.48 | 60.56 | 4.74 | 4.61 | 1.00 | 2.11e+05 |
+| `test_single_mcginley_bands[small-mode]` | 33541 | 15.24 | 63.32 | 16.58 | 16.50 | 1.00 | 6.03e+04 |
+| `test_bulk_mcginley_bands[small-mean]` | 13149 | 33.63 | 86.76 | 35.30 | 34.69 | 2.61 | 2.83e+04 |
+| `test_bulk_mcginley_bands[small-mode]` | 2192 | 344.84 | 827.49 | 367.55 | 359.25 | 27.19 | 2.72e+03 |
+| `test_single_ichimoku[small]` | 47660 | 11.00 | 113.87 | 11.56 | 11.44 | 0.97 | 8.65e+04 |
+| `test_bulk_ichimoku[small]` | 7484 | 90.72 | 155.56 | 92.78 | 91.56 | 3.71 | 1.08e+04 |
+| `test_single_donchian[small]` | 65536 | 8.35 | 60.02 | 8.58 | 8.52 | 0.67 | 1.17e+05 |
+| `test_bulk_donchian[small]` | 14647 | 38.13 | 107.59 | 39.72 | 39.24 | 2.14 | 2.52e+04 |
+| `test_single_keltner[small-simple-simple]` | 45532 | 12.06 | 69.74 | 12.69 | 12.57 | 1.04 | 7.88e+04 |
+| `test_single_keltner[small-mode-mode]` | 21506 | 30.46 | 104.15 | 32.82 | 32.65 | 1.90 | 3.05e+04 |
+| `test_bulk_keltner[small-simple-simple]` | 9755 | 68.91 | 140.58 | 70.90 | 69.85 | 3.65 | 1.41e+04 |
+| `test_bulk_keltner[small-mode-mode]` | 1350 | 651.21 | 866.34 | 677.04 | 670.89 | 25.20 | 1.48e+03 |
+| `test_single_supertrend[small-simple]` | 51624 | 12.67 | 56.72 | 12.94 | 12.83 | 0.92 | 7.73e+04 |
+| `test_single_supertrend[small-mode]` | 33730 | 19.11 | 115.43 | 20.42 | 20.31 | 1.40 | 4.90e+04 |
+| `test_bulk_supertrend[small-simple]` | 13716 | 45.24 | 123.82 | 46.27 | 45.82 | 2.44 | 2.16e+04 |
+| `test_bulk_supertrend[small-mode]` | 2700 | 314.34 | 385.78 | 322.69 | 320.58 | 6.51 | 3.10e+03 |
 
 ##### Large
 
 | Run Name | Rounds | Min (µs) | Max (µs) | Mean (µs) | Median (µs) | Stddev (µs) | Ops/sec |
 |----|----|----|----|----|----|----|----|
-| `test_single_rsi_large[simple]` | 13504 | 45.13 | 72.24 | 45.81 | 45.67 | 0.55 | 2.18e+04 |
-| `test_single_rsi_large[mode]` | 7384 | 104.85 | 151.85 | 115.04 | 114.98 | 1.84 | 8.69e+03 |
-| `test_bulk_rsi_large[simple]` | 1651 | 557.45 | 637.80 | 561.12 | 560.56 | 3.86 | 1.78e+03 |
-| `test_bulk_rsi_large[mode]` | 274 | 3575.83 | 3744.26 | 3606.28 | 3607.11 | 14.12 | 2.77e+02 |
-| `test_single_stoch_large` | 8745 | 80.11 | 113.28 | 80.95 | 80.67 | 1.27 | 1.24e+04 |
-| `test_bulk_stoch_large` | 745 | 1173.21 | 1318.06 | 1225.38 | 1226.14 | 11.75 | 8.16e+02 |
-| `test_single_slow_stoch_large[simple]` | 25246 | 35.70 | 135.48 | 36.07 | 36.00 | 0.83 | 2.77e+04 |
-| `test_single_slow_stoch_large[mode]` | 9751 | 85.69 | 125.33 | 97.15 | 97.00 | 1.79 | 1.03e+04 |
-| `test_bulk_slow_stoch_large[simple]` | 6696 | 120.30 | 177.26 | 121.55 | 121.33 | 1.82 | 8.23e+03 |
-| `test_bulk_slow_stoch_large[mode]` | 377 | 2587.74 | 2780.20 | 2597.93 | 2596.05 | 12.97 | 3.85e+02 |
-| `test_single_slowest_stoch_large[simple]` | 23643 | 36.19 | 62.72 | 36.57 | 36.50 | 0.64 | 2.73e+04 |
-| `test_single_slowest_stoch_large[mode]` | 10844 | 85.93 | 182.67 | 96.43 | 96.37 | 1.86 | 1.04e+04 |
-| `test_bulk_slowest_stoch_large[simple]` | 7208 | 108.13 | 156.74 | 109.17 | 108.91 | 1.82 | 9.16e+03 |
-| `test_bulk_slowest_stoch_large[mode]` | 634 | 1510.25 | 1715.01 | 1518.90 | 1516.99 | 12.68 | 6.58e+02 |
-| `test_single_williams_r_large` | 11704 | 77.37 | 117.93 | 78.48 | 78.48 | 1.01 | 1.27e+04 |
-| `test_bulk_williams_r_large` | 3010 | 296.35 | 377.24 | 297.77 | 297.09 | 4.10 | 3.36e+03 |
-| `test_single_mfi_large` | 10745 | 75.30 | 102.19 | 76.15 | 75.98 | 1.02 | 1.31e+04 |
-| `test_bulk_mfi_large` | 1911 | 484.99 | 550.06 | 487.85 | 487.13 | 4.20 | 2.05e+03 |
-| `test_single_roc_large` | 197824 | 0.11 | 0.79 | 0.11 | 0.11 | 0.00 | 8.72e+06 |
-| `test_bulk_roc_large` | 9023 | 84.76 | 123.82 | 86.16 | 86.18 | 1.15 | 1.16e+04 |
-| `test_single_obv_large` | 194932 | 0.12 | 0.71 | 0.13 | 0.13 | 0.00 | 7.85e+06 |
-| `test_bulk_obv_large` | 6112 | 128.24 | 170.78 | 129.85 | 129.61 | 2.46 | 7.70e+03 |
-| `test_single_cci_large[mean-simple]` | 21506 | 39.19 | 62.35 | 39.87 | 39.83 | 0.52 | 2.51e+04 |
-| `test_single_cci_large[ulcer-mode]` | 145 | 6901.35 | 6994.56 | 6907.99 | 6906.17 | 9.33 | 1.45e+02 |
-| `test_bulk_cci_large[mean-simple]` | 3842 | 230.67 | 317.85 | 232.68 | 232.28 | 3.52 | 4.30e+03 |
-| `test_bulk_cci_large[mode-mode]` | 146 | 6790.98 | 7104.47 | 6834.63 | 6830.58 | 27.28 | 1.46e+02 |
-| `test_single_mcginley_cci_large[mean]` | 22988 | 36.63 | 82.70 | 37.47 | 37.76 | 0.80 | 2.67e+04 |
-| `test_single_mcginley_cci_large[ulcer]` | 147 | 6787.67 | 6856.71 | 6791.56 | 6790.00 | 7.66 | 1.47e+02 |
-| `test_bulk_mcginley_cci_large[mean]` | 2937 | 292.08 | 420.15 | 295.23 | 294.26 | 7.74 | 3.39e+03 |
-| `test_bulk_mcginley_cci_large[mode]` | 270 | 3626.82 | 3902.63 | 3651.63 | 3649.65 | 21.29 | 2.74e+02 |
-| `test_single_macd_line_large[simple-smoothed]` | 23397 | 35.85 | 98.13 | 36.31 | 36.26 | 0.80 | 2.75e+04 |
-| `test_single_macd_line_large[mode-simple]` | 5828 | 144.24 | 190.65 | 151.20 | 151.07 | 1.97 | 6.61e+03 |
-| `test_bulk_macd_line_large[simple-simple]` | 4670 | 166.91 | 208.71 | 168.28 | 168.02 | 1.73 | 5.94e+03 |
-| `test_bulk_macd_line_large[mode-mode]` | 174 | 5706.11 | 5880.22 | 5718.19 | 5714.60 | 18.77 | 1.75e+02 |
-| `test_single_signal_line_large[simple]` | 22250 | 36.28 | 74.28 | 36.80 | 36.67 | 1.21 | 2.72e+04 |
-| `test_single_signal_line_large[mode]` | 8684 | 100.39 | 159.02 | 110.31 | 110.17 | 2.51 | 9.07e+03 |
-| `test_bulk_signal_line_large[simple]` | 7215 | 119.07 | 184.26 | 121.49 | 121.17 | 3.19 | 8.23e+03 |
-| `test_bulk_signal_line_large[mode]` | 318 | 3097.50 | 3392.69 | 3111.16 | 3107.44 | 21.46 | 3.21e+02 |
-| `test_single_mcginley_macd_line_large` | 24954 | 32.39 | 59.13 | 32.77 | 32.74 | 0.49 | 3.05e+04 |
-| `test_bulk_mcginley_macd_line_large` | 854 | 297.76 | 422.98 | 301.42 | 299.20 | 11.33 | 3.32e+03 |
-| `test_single_chaikin_osc_large[simple-simple]` | 5878 | 140.30 | 238.26 | 144.46 | 142.52 | 4.43 | 6.92e+03 |
-| `test_single_chaikin_osc_large[mode-mode]` | 3261 | 288.96 | 420.87 | 295.70 | 294.98 | 6.89 | 3.38e+03 |
-| `test_bulk_chaikin_osc_large[simple-simple]` | 489 | 505.09 | 788.49 | 514.40 | 507.85 | 33.18 | 1.94e+03 |
-| `test_bulk_chaikin_osc_large[mode-mode]` | 335 | 2874.85 | 3438.02 | 2912.14 | 2889.94 | 57.21 | 3.43e+02 |
-| `test_single_ppo_large[simple]` | 22671 | 35.59 | 71.68 | 35.98 | 35.93 | 0.56 | 2.78e+04 |
-| `test_single_ppo_large[mode]` | 6160 | 144.61 | 195.72 | 151.32 | 151.15 | 2.05 | 6.61e+03 |
-| `test_bulk_ppo_large[simple]` | 4638 | 174.93 | 224.59 | 176.19 | 175.87 | 2.00 | 5.68e+03 |
-| `test_bulk_ppo_large[mode]` | 172 | 5680.49 | 5897.75 | 5748.07 | 5753.58 | 28.74 | 1.74e+02 |
-| `test_single_cmo_large` | 14177 | 44.52 | 75.35 | 45.14 | 45.00 | 0.82 | 2.22e+04 |
-| `test_bulk_cmo_large` | 1828 | 502.00 | 573.21 | 505.53 | 504.95 | 3.62 | 1.98e+03 |
+| `test_single_rsi[large-simple]` | 10963 | 45.72 | 76.15 | 46.25 | 46.18 | 0.59 | 2.16e+04 |
+| `test_single_rsi[large-mode]` | 7146 | 104.70 | 437.30 | 115.43 | 115.11 | 5.31 | 8.66e+03 |
+| `test_bulk_rsi[large-simple]` | 1537 | 555.41 | 791.43 | 562.07 | 559.38 | 12.04 | 1.78e+03 |
+| `test_bulk_rsi[large-mode]` | 280 | 3506.66 | 3787.75 | 3550.75 | 3536.83 | 46.49 | 2.82e+02 |
+| `test_single_stoch[large]` | 6790 | 95.39 | 263.26 | 99.22 | 98.63 | 4.04 | 1.01e+04 |
+| `test_bulk_stoch[large]` | 817 | 1149.92 | 1242.60 | 1160.56 | 1157.55 | 10.41 | 8.62e+02 |
+| `test_single_slow_stoch[large-simple]` | 24725 | 36.56 | 150.91 | 37.65 | 37.07 | 2.46 | 2.66e+04 |
+| `test_single_slow_stoch[large-mode]` | 9477 | 86.37 | 309.48 | 99.86 | 98.37 | 7.04 | 1.00e+04 |
+| `test_bulk_slow_stoch[large-simple]` | 5996 | 122.50 | 233.30 | 125.11 | 124.11 | 4.57 | 7.99e+03 |
+| `test_bulk_slow_stoch[large-mode]` | 376 | 2548.36 | 2788.67 | 2618.12 | 2616.76 | 23.64 | 3.82e+02 |
+| `test_single_slowest_stoch[large-simple]` | 24524 | 36.59 | 132.91 | 37.05 | 36.93 | 1.14 | 2.70e+04 |
+| `test_single_slowest_stoch[large-mode]` | 10417 | 85.78 | 164.00 | 96.85 | 96.70 | 2.26 | 1.03e+04 |
+| `test_bulk_slowest_stoch[large-simple]` | 6776 | 108.85 | 188.89 | 110.37 | 109.89 | 2.62 | 9.06e+03 |
+| `test_bulk_slowest_stoch[large-mode]` | 648 | 1472.42 | 1726.66 | 1502.69 | 1498.99 | 23.80 | 6.65e+02 |
+| `test_single_williams_r[large]` | 11712 | 79.33 | 180.02 | 80.45 | 80.15 | 2.05 | 1.24e+04 |
+| `test_bulk_williams_r[large]` | 2991 | 299.95 | 379.37 | 302.36 | 301.69 | 3.98 | 3.31e+03 |
+| `test_single_mfi[large]` | 10813 | 76.65 | 288.71 | 77.76 | 77.32 | 3.20 | 1.29e+04 |
+| `test_bulk_mfi[large]` | 1991 | 466.15 | 606.73 | 469.43 | 468.58 | 5.03 | 2.13e+03 |
+| `test_single_roc[large]` | 86259 | 0.11 | 0.97 | 0.11 | 0.11 | 0.00 | 8.81e+06 |
+| `test_bulk_roc[large]` | 7652 | 85.00 | 125.61 | 86.26 | 86.13 | 1.41 | 1.16e+04 |
+| `test_single_obv[large]` | 77036 | 0.12 | 0.43 | 0.12 | 0.12 | 0.00 | 8.00e+06 |
+| `test_bulk_obv[large]` | 5529 | 131.82 | 222.32 | 133.78 | 133.30 | 2.81 | 7.47e+03 |
+| `test_single_cci[large-standard-simple]` | 21086 | 41.46 | 192.45 | 41.98 | 41.89 | 1.32 | 2.38e+04 |
+| `test_single_cci[large-ulcer-mode]` | 145 | 6902.11 | 6976.02 | 6910.82 | 6908.23 | 10.17 | 1.45e+02 |
+| `test_bulk_cci[large-mean-simple]` | 3758 | 233.24 | 431.36 | 235.86 | 235.24 | 4.78 | 4.24e+03 |
+| `test_bulk_cci[large-mode-mode]` | 150 | 6595.52 | 6891.28 | 6714.50 | 6719.94 | 39.20 | 1.49e+02 |
+| `test_single_mcginley_cci[large-mean]` | 21463 | 39.07 | 88.56 | 39.41 | 39.33 | 0.68 | 2.54e+04 |
+| `test_single_mcginley_cci[large-ulcer]` | 148 | 6786.93 | 6856.22 | 6791.40 | 6788.85 | 10.10 | 1.47e+02 |
+| `test_bulk_mcginley_cci[large-mean]` | 3122 | 294.47 | 371.17 | 296.88 | 295.89 | 4.85 | 3.37e+03 |
+| `test_bulk_mcginley_cci[large-mode]` | 279 | 3486.64 | 3724.12 | 3525.94 | 3517.77 | 33.65 | 2.84e+02 |
+| `test_single_macd_line[large-simple-simple]` | 23550 | 36.61 | 65.43 | 37.03 | 36.98 | 0.58 | 2.70e+04 |
+| `test_single_macd_line[large-mode-mode]` | 5768 | 144.85 | 208.87 | 152.76 | 152.65 | 2.13 | 6.55e+03 |
+| `test_bulk_macd_line[large-simple-simple]` | 4366 | 169.41 | 274.04 | 171.58 | 171.56 | 2.46 | 5.83e+03 |
+| `test_bulk_macd_line[large-mode-mode]` | 170 | 5744.79 | 6164.66 | 5807.54 | 5789.61 | 61.04 | 1.72e+02 |
+| `test_single_signal_line[large-simple]` | 23884 | 36.43 | 77.87 | 37.20 | 36.81 | 1.65 | 2.69e+04 |
+| `test_single_signal_line[large-mode]` | 6038 | 99.56 | 221.69 | 111.37 | 110.44 | 6.51 | 8.98e+03 |
+| `test_bulk_signal_line[large-simple]` | 6184 | 122.09 | 184.87 | 123.67 | 123.34 | 3.00 | 8.09e+03 |
+| `test_bulk_signal_line[large-mode]` | 296 | 3148.12 | 3934.15 | 3279.79 | 3267.17 | 79.23 | 3.05e+02 |
+| `test_single_mcginley_macd_line[large]` | 16998 | 34.43 | 113.56 | 35.62 | 35.02 | 2.86 | 2.81e+04 |
+| `test_bulk_mcginley_macd_line[large]` | 786 | 299.78 | 929.34 | 328.26 | 313.38 | 49.88 | 3.05e+03 |
+| `test_single_chaikin_osc[large-simple-simple]` | 4551 | 148.15 | 385.49 | 157.96 | 151.63 | 16.15 | 6.33e+03 |
+| `test_single_chaikin_osc[large-mode-mode]` | 3049 | 295.19 | 646.99 | 315.02 | 307.41 | 26.99 | 3.17e+03 |
+| `test_bulk_chaikin_osc[large-simple-smoothed]` | 1729 | 543.58 | 1387.96 | 590.97 | 576.23 | 65.03 | 1.69e+03 |
+| `test_bulk_chaikin_osc[large-mode-mode]` | 332 | 2893.47 | 3775.57 | 2974.67 | 2959.25 | 78.65 | 3.36e+02 |
+| `test_single_ppo[large-simple]` | 21110 | 36.78 | 174.58 | 37.42 | 37.11 | 2.12 | 2.67e+04 |
+| `test_single_ppo[large-mode]` | 4999 | 146.91 | 268.06 | 157.99 | 155.41 | 8.64 | 6.33e+03 |
+| `test_bulk_ppo[large-simple]` | 4574 | 180.76 | 292.17 | 189.88 | 186.05 | 9.28 | 5.27e+03 |
+| `test_bulk_ppo[large-mode]` | 169 | 5745.96 | 6195.52 | 5857.82 | 5836.55 | 69.54 | 1.71e+02 |
+| `test_single_cmo[large]` | 12582 | 44.95 | 88.39 | 45.89 | 45.57 | 1.73 | 2.18e+04 |
+| `test_bulk_cmo[large]` | 1627 | 520.47 | 627.45 | 533.30 | 530.17 | 10.08 | 1.88e+03 |
 
 ---
 
