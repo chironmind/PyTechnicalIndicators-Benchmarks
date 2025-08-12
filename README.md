@@ -106,6 +106,8 @@ The results are split by indicator category, then data size. For indicators that
 type, deviation model...) only the fastest and the slowest combination will be provided here. More details can
 be found in the `results/markdown` directory.
 
+Due to the size of the files produced Candles [small] and all momentum indicator runs aren't available in results for comparaisons.
+
 #### Candle Indicators
 
 ##### Small
